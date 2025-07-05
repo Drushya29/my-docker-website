@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  frontend:
+    image: nginx
+    ports:
+      - "8087:80"
+
+  backend:
+    image: httpd
+    ports: 
+      - "8088:80"
